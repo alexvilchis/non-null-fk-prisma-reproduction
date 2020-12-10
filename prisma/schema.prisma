@@ -11,10 +11,10 @@ generator client {
 }
 
 model Student {
-  id       String  @id @default(cuid())
+  id       String @id @default(cuid())
   name     String
-  career   Career? @relation(fields: [careerId], references: [id])
-  careerId String?
+  career   Career @relation(fields: [careerId], references: [id])
+  careerId String
 }
 
 model Career {
