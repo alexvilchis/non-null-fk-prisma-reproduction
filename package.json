@@ -1,0 +1,21 @@
+{
+  "name": "non-null-fk-prisma-reproduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@prisma/cli": "^2.13.0",
+    "@types/node": "^14.14.12",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.13.0"
+  }
+}
